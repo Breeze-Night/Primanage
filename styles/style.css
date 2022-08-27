@@ -1,0 +1,21 @@
+.primanage {
+  font-family: 'Secular One', sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  color: rgb(79, 155, 255);
+  margin-bottom: 30px;
+}
+
+.head {
+  margin: auto;
+  margin-top: 225px;
+}
+
+.prima {
+  color: rgb(44, 181, 44);
+}
+
+.description {
+  font-size: 20px;
+  color: rgb(100, 100, 100);
+}

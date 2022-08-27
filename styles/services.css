@@ -1,0 +1,92 @@
+.head {
+  width: 600px;
+  margin: 0px auto;
+  margin-bottom: 75px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.description {
+  color: gray;
+  line-height: 1.5rem;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 0px 150px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+i {
+  font-size: 60px;
+}
+
+.service1, .service2, .service3 {
+  border: 2px solid rgb(222, 222, 222);
+  border-radius: 5px;
+  padding: 75px 10px;
+  transition: background-color 0.2s, color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+.service-name {
+  font-size: 22px;
+  margin: 35px 0;
+}
+
+.service .description {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.read-more {
+  display: block;
+  color: rgb(0, 110, 255);
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.ti-angle-right {
+  font-size: 16px;
+  z-index: 100;
+}
+
+.service1:hover {
+  background-color: rgba(144, 238, 200, 0.1);
+  border-color: rgb(78, 224, 161);
+  box-shadow: 0 0 5px rgba(78, 224, 161, 0.8);
+}
+.service1:hover i {
+  color: rgb(24, 114, 75);
+}
+.service1:hover .service-name {
+  color: rgb(24, 114, 75);
+}
+
+.service2:hover {
+  background-color: #e7f07d1a;
+  border-color: rgb(218, 238, 43);
+  box-shadow: 0 0 5px rgba(218, 238, 43, 0.8);
+}
+.service2:hover i {
+  color: rgb(121, 112, 17);
+}
+.service2:hover .service-name {
+  color: rgb(121, 112, 17);
+}
+
+.service3:hover {
+  background-color: rgba(97, 230, 237, 0.1);
+  border-color: rgb(7, 234, 242);
+  box-shadow: 0 0 5px rgba(7, 234, 242, 0.8);
+}
+.service3:hover i {
+  color: rgb(25, 77, 112);
+}
+.service3:hover .service-name {
+  color: rgb(25, 77, 112);
+}
